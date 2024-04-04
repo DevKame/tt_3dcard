@@ -1,0 +1,28 @@
+
+#wrapper {
+    perspective: 800px;
+}
+/* #card {
+    transition: all .3s linear;
+}
+#card:hover {
+    transform: translateZ(100px);
+    transform: rotateY(40deg);
+} */
+
+#card {
+    transform-style: preserve-3d;
+}
+#card:hover h1 {
+    transform: translateZ(70px);
+}
+#card:hover h3 {
+    transform: translateZ(50px);
+}
+#card:hover p {
+    transform: translateZ(30px);
+}
+#card * {
+    pointer-events: none;
+    transition: .3s ease;
+}
